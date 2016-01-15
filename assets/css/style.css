@@ -1,0 +1,182 @@
+ 
+      body{
+        padding-top: 0px;
+          /*font-family: 'Delius Swash Caps', cursive;*/          
+          background:#f5f7f9; 
+      }
+      /* Medium Devices, Desktops */
+      @media only screen and (min-width : 992px) {
+
+      }
+
+      /* Large Devices, Wide Screens */
+      @media only screen and (min-width : 1200px) {
+
+      }
+      /* Small Devices, Tablets */
+      @media screen and (min-width: 768px) {
+        nav{
+          z-index: 1;
+          position: absolute;
+          height: 107px;          
+          padding-left:9%!important;
+          padding-right:9%!important;
+          border-radius: 0px!important;
+          padding-top: 10px;
+         }
+         nav .container-fluid{
+          margin-top: 10px;
+         }
+        .container-fluid .navbar-brand {
+            margin-left: 0px!important; 
+        }
+         .navbar-brand {
+          padding-top: 0px!important;
+            float: left;
+            height: 50px;
+            padding: 0px 0px;
+            font-size: 18px;
+        }
+         a:hover{
+          color: #E6EE9C!important;
+        }
+        .slide {
+          padding: 30px;
+          margin-top: -50px;      
+          z-index: 2;
+          position: relative;
+          background-color: #fff;          
+          opacity: .99;
+          -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+          box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+          margin-bottom: 50px;
+        }
+        div.container  {              
+          width: 85%;
+        }
+      }
+      /* Extra Small Devices, Phones */ 
+      @media only screen and (min-width : 480px) {
+
+      }
+      .navbar-brand{
+         padding-top: 8px;
+         font-size: 20px;
+         margin-right: 25px;
+      }
+      .navbar-brand i{
+         font-size: 30px;
+      }
+      nav{
+          padding-right: 8%;
+          padding-left: 6%;
+          font-size: 20px;
+      } 
+      .navbar-form .input-group {
+      display: inline-table;
+      vertical-align: middle;
+      }
+      .navbar-form .form-group {
+          display: inline-block;
+          margin-bottom: 0;
+          vertical-align: middle;
+      }
+
+     .navbar-default .navbar-nav > li > a {
+        color: white;
+      }
+      .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        color: white;
+        background-color: transparent;
+      }
+      .navbar-default .navbar-brand {
+        color: white;
+      }
+      .navbar-default {
+        font-family: 'Lobster', cursive;   
+          background-color: #66A8A8;
+          border-color: transparent;
+      }
+      .navbar-default .navbar-toggle {
+          border-color: transparent;
+      }
+      .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+          background-color: transparent;
+      }
+      .navbar-default .navbar-toggle .icon-bar {
+          background-color: white;
+      }
+      .navbar-toggle .icon-bar:nth-of-type(2) {
+          top: 1px;
+      }
+
+      .navbar-toggle .icon-bar:nth-of-type(3) {
+          top: 2px;
+      }
+
+      .navbar-toggle .icon-bar {
+          position: relative;
+          transition: all 500ms ease-in-out;
+      }
+
+      .navbar-toggle.active .icon-bar:nth-of-type(1) {
+          top: 6px;
+          transform: rotate(45deg);
+      }
+
+      .navbar-toggle.active .icon-bar:nth-of-type(2) {
+          background-color: transparent;
+      }
+
+      .navbar-toggle.active .icon-bar:nth-of-type(3) {
+          top: -6px;
+          transform: rotate(-45deg);
+      }
+
+      .container-fluid {
+        padding-right: 0px; 
+        padding-left: 0px; 
+      }
+      .container-central{
+
+      }
+      h1, h2{
+        font-family: 'Lobster', cursive;     
+      }
+      .row-1{
+        color: white;
+      }
+      .classWithPad{ 
+        margin-top:32px; 
+        padding:30px; 
+      }
+
+      .col-1{
+        background: #BDBDBD;
+        box-shadow: 4px -6px #9E9E9E;
+      }
+      .col-2{
+        background: #75AF96;
+        box-shadow: 4px -6px #499273;
+      }
+      .col-3{
+        background: #98C779;
+        box-shadow: 4px -6px #77AE4D;
+      }
+      .btn{
+        border-radius: 0px;
+      }
+      .card {
+        margin: 2rem auto;
+      }
+        img {
+        width: 100%;
+      
+        transition: 0.1s linear;
+        background-position: center center;
+      }
+      .card-title {
+        margin-bottom: 1rem;
+        font-family: Raleway;
+        font-weight: 900;
+      }
